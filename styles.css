@@ -1,0 +1,65 @@
+body {
+  box-sizing: border-box;
+  font-family: arial;
+  /*margin: 0;*/
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 7.5%;
+}
+
+.container {
+  box-sizing: border-box;
+  flex: 1;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+.employeeImage {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.employeeName {
+  font-size: 1em;
+  text-transform: uppercase;
+  border-bottom: 2px solid green;
+  display: inline-block;
+}
+
+.employeeEmail, .employeePhone {
+  text-decoration: none;
+  font-size: .85em;
+  color: grey;
+  display: block;
+}
+
+.employeeEmail:hover, .employeePhone:hover {
+  color: green;;
+}
+
+.container p {
+  font-size: .75em;
+  text-transform: capitalize;
+}
+
+.SSN {
+  color: transparent;
+  text-shadow: 1px 1px 15px grey;
+}
+
+.SSN:hover {
+  color: green;
+  text-shadow: none;
+}
